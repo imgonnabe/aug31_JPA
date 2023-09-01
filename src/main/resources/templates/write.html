@@ -3,8 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <title>글쓰기</title>
+<link rel="stylesheet" type="text/css" th:href="@{./css/menu.css}">
 </head>
 <body>
+<th:block th:insert="~{/menu.html :: menu}"></th:block>
 	<h1>글쓰기</h1>
 	<form th:action="@{./write}" method="post">
 		<input type="text" name="title">

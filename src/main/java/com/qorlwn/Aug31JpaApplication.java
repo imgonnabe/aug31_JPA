@@ -1,4 +1,4 @@
-package com.qorlwn.web;
+package com.qorlwn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

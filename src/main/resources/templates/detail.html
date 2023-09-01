@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>detail</title>
+<link rel="stylesheet" type="text/css" th:href="@{./css/menu.css}">
+</head>
+<body>
+	<th:block th:insert="~{/menu.html :: menu}"></th:block>
+	<h1>상세보기</h1>
+	[[${detail}]]
+</body>
+</html>
